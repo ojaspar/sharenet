@@ -1,0 +1,234 @@
+.get {
+	background-image: url(../img/thumbs/dark-pattern.jpg);
+	background-repeat: repeat;
+	position: relative;
+    z-index: 2;
+    overflow: hidden;
+	border-top: 1px solid #393939;
+	border-bottom: 1px solid #393939;
+}
+.foot {
+	background-image: url(../img/thumbs/dark-pattern.jpg);
+	background-repeat: repeat;
+	border-top: 1px solid #393939;
+	border-bottom: 1px solid #393939;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #1E6887;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius:3px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: white;
+    color:black;
+    border-radius:3px;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color:black;
+}
+
+.win {
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin-top: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.win i {
+    margin-left: 4px;
+}
+
+/*------------------------------------------*/
+/*   BUTTON HOVER
+/*------------------------------------------*/
+
+.win:hover {
+    color: black;
+    background-color: rgb(255,255,255);
+    border-color: rgb(255,255,255);
+}
+
+/*------------------------------------------*/
+/*  BUTTON FOCUS
+/*------------------------------------------*/
+
+.win:focus,
+.win:active:focus,
+.win.active:focus,
+.win.focus,
+.win:active.focus,
+.win.active.focus {
+    outline: none;
+}
+.ios {
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin-top: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.ios i {
+    margin-left: 4px;
+}
+
+/*------------------------------------------*/
+/*   BUTTON HOVER
+/*------------------------------------------*/
+
+.ios:hover {
+    color: black;
+    background-color: rgb(255,255,255);
+    border-color: rgb(255,255,255);
+}
+
+/*------------------------------------------*/
+/*  BUTTON FOCUS
+/*------------------------------------------*/
+
+.ios:focus,
+.ios:active:focus,
+.ios.active:focus,
+.ios.focus,
+.ios:active.focus,
+.ios.active.focus {
+    outline: none;
+}
+.lin {
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: black;
+    border: 1px solid black;
+    padding: 12px 20px;
+    margin-top: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.lin i {
+    margin-left: 4px;
+}
+
+/*------------------------------------------*/
+/*   BUTTON HOVER
+/*------------------------------------------*/
+
+.lin:hover {
+    color: black;
+    background-color: rgb(255,255,255);
+    border-color: rgb(255,255,255);
+}
+
+/*------------------------------------------*/
+/*  BUTTON FOCUS
+/*------------------------------------------*/
+
+.lin:focus,
+.lin:active:focus,
+.lin.active:focus,
+.lin.focus,
+.lin:active.focus,
+.lin.active.focus {
+    outline: none;
+}
+
+.black {
+    color:black !important;
+}
+@media only screen and (max-width: 1024px) {
+    .table-body, .table-header {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .win, .ios, .lin {
+        display:block;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .windows-btn, .googleplay-btn, .appstore-btn{
+        display:block;
+        height:25px;
+        margin-left:38%;
+        margin-top:2.5px;
+				margin-bottom: 0;
+
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .desktop{
+        display:block;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .windows-button, .googleplay-button, .appstore-button {
+        /*display:block;*/
+        margin: 5px;
+    }
+}

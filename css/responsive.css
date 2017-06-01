@@ -1,0 +1,890 @@
+/* 
+   ------------------------------------------------------
+					Responsive Styles
+   ------------------------------------------------------
+*/
+
+
+@media (min-width: 1440px) and (max-width: 2880px) {
+	
+	
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	/*------------------------------------------*/
+	/*	H3 TITLE
+	/*------------------------------------------*/
+
+	h3.title-h3 { font-size: 34px; line-height: 42px; }
+		
+	/*------------------------------------------*/
+	/*	 PARAGRAPHS
+	/*------------------------------------------*/
+
+	p { font-size: 16px; line-height: 26px; }
+	
+	/*------------------------------------------*/
+	/*	INFO FEATURE
+	/*------------------------------------------*/
+
+	.info-feature { margin-bottom: 30px; }
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title h3 { font-size: 34px; line-height: 42px; }
+	.section-title p { padding: 0 15%;}
+		
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt { margin-top: 60px; }
+	.intro-txt h2 { font-size: 50px; line-height: 56px; }
+	.intro-txt p { font-size: 18px; line-height: 28px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO STORE BADGES   
+	/*------------------------------------------*/
+
+	.intro-stores-badge p { font-size: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 FEATURES   
+	/*------------------------------------------*/
+	
+	.feature-boxes { padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX TEXT
+	/*------------------------------------------*/
+
+	.feature-box-text p { padding-right: 0px; }
+
+	/*------------------------------------------*/
+	/*	  INFO-1 TEXT
+	/*------------------------------------------*/
+
+	.i1-txt { padding-left: 15px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-1 SLIDER BACK IMAGE
+	/*------------------------------------------*/
+
+	.i1-back-img { right: 0%; }
+	
+	/*------------------------------------------*/
+	/*	  INFO-2 LIST TEXT
+	/*------------------------------------------*/
+
+	.list-text { font-size: 16px; line-height: 26px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-2 IMAGES
+	/*------------------------------------------*/  
+
+	.i2-front-img { left: 24%;}
+	.i2-back-img {left: 2%;}
+	
+	/*------------------------------------------*/
+	/*	INFO-3 TEXT
+	/*------------------------------------------*/
+
+	.i3-txt { padding-left: 15px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-3 IMAGES
+	/*------------------------------------------*/  
+
+	.i3-front-img { right: 12%; }
+	.i3-back-img { right: 0; }
+
+	/*------------------------------------------*/
+	/*	  VIDEO LINK
+	/*------------------------------------------*/ 
+
+	.video-block { padding-bottom: 82.25%; }
+		
+	/*------------------------------------------*/
+	/*	  VIDEO TEXT
+	/*------------------------------------------*/ 
+
+	.video-txt  { padding-left: 40px; }
+		
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+
+	.newsletter-txt { padding-right: 30px; }
+	.newsletter-txt h4 { font-size: 20px; line-height: 28px; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER FORM INPUT
+	/*------------------------------------------*/
+
+	#newsletter_form { padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER FORM BUTTON
+	/*------------------------------------------*/
+
+	#newsletter_form .btn {  padding: 15px 20px; } 
+		
+	/*------------------------------------------*/
+	/*	INFO-4 TEXT
+	/*------------------------------------------*/
+
+	.i4-txt { margin-top: 40px; padding-left: 15px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-4 IMAGES
+	/*------------------------------------------*/  
+
+	.i4-front-img { right: 18%; }
+
+	/*------------------------------------------*/
+	/*	  STATISTIC BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-block i { font-size: 38px; line-height: 38px; }	
+	.statistic-number { font-size: 55px; line-height: 55px; }
+
+	
+	
+}
+
+
+@media only screen and (max-width: 991px) {
+	
+	/*------------------------------------------*/
+	/*	SECTION HEIGHT SETTINGS
+	/*------------------------------------------*/
+
+	.wide { padding-top: 80px; padding-bottom: 80px; }
+	#features.wide, #faqs.wide { padding-bottom: 60px; } 
+	#testimonials.wide { padding-bottom: 50px; } 
+	
+	/*------------------------------------------*/
+	/*	H3 TITLE
+	/*------------------------------------------*/
+
+	h3.title-h3 { font-size: 32px; line-height: 40px; }	
+	h3.title-h3:after { margin-top: 10px; margin-bottom: 20px; }
+		
+	/*------------------------------------------*/
+	/*	 PARAGRAPHS
+	/*------------------------------------------*/
+
+	p { font-size: 16px; line-height: 26px; }
+	
+	/*------------------------------------------*/
+	/*	 BUTTON SETTINGS
+	/*------------------------------------------*/
+
+	.btn { font-size: 13px; padding: 12px 18px; }
+	
+	/*------------------------------------------*/
+	/*	INFO FEATURE
+	/*------------------------------------------*/
+
+	.info-feature { margin-bottom: 30px; }	
+	.info-feature i { font-size: 34px; line-height: 34px!important; }
+	.info-feature h4 { font-size: 18px; line-height: 25px; }
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title h3 { font-size: 32px; line-height: 40px; }
+	.section-title p { font-size: 18px; line-height: 26px; padding: 0 5%;}
+	
+	/*------------------------------------------*/
+	/*	 INTRO 
+	/*------------------------------------------*/
+	
+	#intro { padding-bottom: 130px; } 
+	
+	/*------------------------------------------*/
+	/*	 INTRO IMAGE   
+	/*------------------------------------------*/
+
+	.intro-img img { padding-right: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt { margin-top: 50px; text-align: center; }
+	.intro-txt h2 { font-size: 42px; line-height: 52px; }
+	.intro-txt p { font-size: 18px; line-height: 28px; padding: 0 6%; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO STORE BADGES   
+	/*------------------------------------------*/
+	
+	.intro-stores-badge { margin-top: 20px; }
+	.intro-stores-badge p { font-size: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 FEATURES   
+	/*------------------------------------------*/
+	
+	.feature-boxes { padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX
+	/*------------------------------------------*/
+
+	.feature-box { margin-bottom: 40px; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX TEXT
+	/*------------------------------------------*/
+
+	.feature-box-text p { padding-right: 0px; }
+	
+	/*------------------------------------------*/
+	/*	  INFO-1 TEXT
+	/*------------------------------------------*/
+
+	.i1-txt { margin-top: 0px; padding-left: 15px; }
+
+	/*------------------------------------------*/
+	/*	  INFO-1 SLIDER
+	/*------------------------------------------*/
+
+	.i1-slider { margin-top: 50px; padding-left: 20%; text-align: center; }
+
+	/*------------------------------------------*/
+	/*	INFO-1 SLIDER BACK IMAGE
+	/*------------------------------------------*/
+
+	.i1-back-img { right: 15%; }
+
+	/*------------------------------------------*/
+	/*	INFO-2 TEXT
+	/*------------------------------------------*/
+
+	.i2-txt { margin-top: 50px; padding-left: 15px; }
+	.list-text { font-size: 16px; line-height: 26px; }
+	
+	/*------------------------------------------*/
+	/*	  INFO-2 LIST ICON
+	/*------------------------------------------*/
+
+	.list-icon i { width: 30px; height: 30px; font-size: 30px; line-height: 30px!important; margin-top: 0px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-2 IMAGES
+	/*------------------------------------------*/  
+	
+	.i2-img { border-bottom: 1px solid #eee; }	
+	.i2-phones { position: relative; width: 100%; max-width: 500px; height: 500px; overflow: hidden; margin: 0 auto; }
+	.i2-front-img { top: 0px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-3
+	/*------------------------------------------*/
+	
+	#info-3.wide { padding-bottom: 0;}
+		
+	/*------------------------------------------*/
+	/*	INFO-3 TEXT
+	/*------------------------------------------*/
+
+	.i3-txt { margin-top: 0px; padding-left: 15px; }
+	.i3-txt h3 { margin-bottom: 30px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-3 IMAGES
+	/*------------------------------------------*/  
+	
+	.i3-phones { position: relative; width: 100%; max-width: 500px; height: 500px; overflow: hidden; margin: 50px auto 0; }
+	.i3-front-img { top: 0px; }
+
+	/*------------------------------------------*/
+	/*	  VIDEO LINK
+	/*------------------------------------------*/ 
+
+	.video-block { padding-bottom: 62.25%; }
+		
+	/*------------------------------------------*/
+	/*	  VIDEO TEXT
+	/*------------------------------------------*/ 
+
+	.video-txt  { margin-top: 50px; padding-left: 15px; }
+		
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+	
+	.newsletter-txt { text-align: center; padding-right: 15px; margin-bottom: 50px; }
+	.newsletter-txt h4 { line-height: 30px; padding: 0 8%; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+
+	#newsletter_form { padding: 0 8%;}
+	
+	/*------------------------------------------*/
+	/*	INFO-4
+	/*------------------------------------------*/
+	
+	#info-4.wide { padding-bottom: 0;}
+	
+	/*------------------------------------------*/
+	/*	INFO-4 TEXT
+	/*------------------------------------------*/
+
+	.i4-txt { margin-top: 0px; padding-left: 15px; }
+	.i4-txt h3 { margin-bottom: 30px; }
+	
+	/*------------------------------------------*/
+	/*	INFO-4 IMAGES
+	/*------------------------------------------*/  
+	
+	.i4-phones { position: relative; width: 100%; max-width: 500px; height: 500px; overflow: hidden; margin: 50px auto 0; }
+	
+	/*------------------------------------------*/
+	/*	  STATISTIC BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-block i { font-size: 35px; line-height: 35px; }	
+	.statistic-number { font-size: 52px; line-height: 52px; }
+
+	/*------------------------------------------*/
+	/*	 TABLE HEADER
+	/*------------------------------------------*/
+
+	.table-header h3 { font-size: 30px; line-height: 30px; }
+		
+	/*------------------------------------------*/
+	/*	 TABLE HEADER PRICE
+	/*------------------------------------------*/
+	
+	.table-header .price span {font-size: 90px;line-height: 90px;}
+	
+	/*------------------------------------------*/
+	/*	 Currency
+	/*------------------------------------------*/
+
+	sup.currency, sup.cents { font-size: 40px; top: -40px; }
+
+	/*------------------------------------------*/
+	/*	 PRICING NOTICE MESSAGE
+	/*------------------------------------------*/
+	
+	.pricing-notice p { padding: 0 5%; }
+	
+	/*------------------------------------------*/
+	/*	  TESTIMONIAL MESSAGE 
+	/*------------------------------------------*/ 
+	
+	.testimonial { margin-bottom: 30px; padding: 0 40px; }
+	
+	/*------------------------------------------*/
+	/*	  MESSAGE ARROW
+	/*------------------------------------------*/ 
+
+	.testi-arrow { left: 4%; }
+	
+	/*------------------------------------------*/
+	/*	  REGISTER FORM
+	/*------------------------------------------*/
+
+	#input-name, #input-email, #input-phone { padding-right: 15px;}
+
+	
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	
+	#features, #clients, #info-1, #info-2, #info-3, #video, #newsletter, #info-4, #screens, #statistic-banner, #pricing, 
+	#testimonials, #call-to-action, #faqs, #sign-up, #footer  { padding-left: 30px; padding-right: 30px; }
+		
+	/*------------------------------------------*/
+	/*	H3 TITLE
+	/*------------------------------------------*/
+
+	h3.title-h3 { font-size: 28px; line-height: 36px; }	
+	h3.title-h3:after { margin-top: 10px; margin-bottom: 20px; }
+	
+	/*------------------------------------------*/
+	/*	INFO FEATURE
+	/*------------------------------------------*/
+
+	.info-feature { margin-bottom: 30px; }	
+	.info-feature i { font-size: 34px; line-height: 34px!important; }
+	.info-feature h4 { font-size: 18px; line-height: 25px; }
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title h3 { font-size: 28px; line-height: 36px; }
+	.section-title p { font-size: 17px; line-height: 26px; padding: 0 4%;}
+	
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand { padding: 15px 30px; }
+
+	/*------------------------------------------*/
+	/*	 Responsive Menu
+	/*------------------------------------------*/
+		
+	.navbar {padding: 0px;}	
+	.navbar-nav { background: #444; margin-top: 0; margin-bottom: 0; border-top: 1px solid #666; }	
+	.navbar-nav > li { text-align: center; }
+	.navbar-nav > li > a { color: #fff; line-height: 40px; text-align: center; }
+	.navbar-nav > li > a:hover { color: #3aabe1; }
+	
+	/*------------------------------------------*/
+	/*	 Navigation Menu Download Button     
+	/*------------------------------------------*/
+
+	.navbar-nav > li > a.download {	line-height: 40px; margin-left: 0; margin-top: 0; padding: 0 15px; border: none;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
+	.navbar-nav > li > a.download:hover { background-color: transparent; color: #3aabe1; border: none; }	
+	.scroll-fixed-navbar .navbar-nav > li > a.download { background-color: transparent; border: none;}
+	.scroll-fixed-navbar .navbar-nav > li > a.download:hover { background-color: transparent;  color: #3aabe1; border: none; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO
+	/*------------------------------------------*/
+	
+	#intro { padding-top: 120px; padding-bottom: 120px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt { margin-top: 40px; text-align: center; }
+	.intro-txt h2 { font-size: 38px; line-height: 48px; margin-bottom: 20px; }
+	.intro-txt p { font-size: 17px; line-height: 27px; padding: 0 8%; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO STORE BADGES   
+	/*------------------------------------------*/
+	
+	.intro-stores-badge { margin-top: 20px; }
+	.intro-stores-badge p { font-size: 15px; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX
+	/*------------------------------------------*/
+
+	.feature-box { padding: 0 8%; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+	
+	.newsletter-txt h4 { line-height: 30px; padding: 0 4%; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+
+	#newsletter_form { padding: 0 4%;}
+	
+	/*------------------------------------------*/
+	/*	  STATISTIC BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-block { margin-bottom: 40px; }
+	.statistic-block:last-child { margin-bottom: 0; }
+	
+	/*------------------------------------------*/
+	/*	 PRICING
+	/*------------------------------------------*/
+	
+	#price_1 { margin-bottom: 50px }
+	.pricing-table {margin: 0 12%; }
+	
+	/*------------------------------------------*/
+	/*	 PRICING NOTICE MESSAGE
+	/*------------------------------------------*/
+	
+	.pricing-notice p { padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	 CALL TO ACTION
+	/*------------------------------------------*/
+	
+	#call-to-action h4 { font-size: 28px; line-height: 36px; }	
+	
+	/*------------------------------------------*/
+	/*	 REGISTER FORM
+	/*------------------------------------------*/
+	
+	#register_form { padding: 0 5%; }
+	
+	
+	
+}
+
+
+@media only screen and (max-width: 640px) {
+		
+	/*------------------------------------------*/
+	/*	H3 TITLE
+	/*------------------------------------------*/
+
+	h3.title-h3 { font-size: 26px; line-height: 34px; }	
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title h3 { font-size: 26px; line-height: 34px; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt h2 { font-size: 34px; line-height: 44px; }
+	.intro-txt p { font-size: 16px; line-height: 26px; padding: 0 4%; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX
+	/*------------------------------------------*/
+
+	.feature-box { padding: 0 4%; }
+	
+	/*------------------------------------------*/
+	/*	  FEATURE BOX ICON
+	/*------------------------------------------*/
+
+	.feature-box-icon i { width: 45px; height: 45px; font-size: 40px; line-height: 40px!important; }	
+	.feature-box-text h4 { font-size: 18px; line-height: 25px; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+	
+	.newsletter-txt h4 { line-height: 30px; padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+
+	#newsletter_form { padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	 PRICING
+	/*------------------------------------------*/
+	
+	.pricing-table {margin: 0 8%; }
+	
+	/*------------------------------------------*/
+	/*	  TESTIMONIAL MESSAGE 
+	/*------------------------------------------*/ 
+	
+	.testimonial { padding: 0 20px; }
+
+	/*------------------------------------------*/
+	/*	  SIGN UP TITLE
+	/*------------------------------------------*/
+
+	#sign-up p { padding: 0 30px;}
+			
+	/*------------------------------------------*/
+	/*	 CALL TO ACTION
+	/*------------------------------------------*/
+	
+	#call-to-action h4 { font-size: 26px; line-height: 34px; }	
+	
+	/*------------------------------------------*/
+	/*	 REGISTER FORM
+	/*------------------------------------------*/
+	
+	#register_form { padding: 0 3%; }
+
+	
+	
+}
+
+
+@media (max-width: 480px) {
+	
+	#stlChanger { display: none; }
+	
+	#features, #clients, #info-1, #info-2, #info-3, #video, #newsletter, #info-4, #screens, #statistic-banner, #pricing, 
+	#testimonials, #call-to-action, #faqs, #sign-up, #footer  { padding-left: 15px; padding-right: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title p { font-size: 17px; line-height: 26px; padding: 0 3%;}
+		
+	/*------------------------------------------*/
+	/*	 Logo Image    
+	/*------------------------------------------*/
+
+	.navbar-brand { padding: 15px; }
+	
+	/*------------------------------------------*/
+	/*	 Responsive Menu Button    
+	/*------------------------------------------*/
+
+	.navbar-toggle { margin: 11px 15px 11px 0; }
+
+	/*------------------------------------------*/
+	/*	 INTRO  
+	/*------------------------------------------*/
+	
+	#intro { padding-top: 100px; padding-bottom: 100px; } 
+	
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt h2 { font-size: 30px; line-height: 40px; }
+	.intro-txt p { padding: 0 8%; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO IMAGE   
+	/*------------------------------------------*/
+
+	.intro-img { padding: 0 15%; }
+
+	/*------------------------------------------*/
+	/*	  INFO-1 SLIDER
+	/*------------------------------------------*/
+
+	.i1-slider { margin-top: 50px; padding-left: 5%; text-align: center; }
+
+	/*------------------------------------------*/
+	/*	INFO-1 SLIDER BACK IMAGE
+	/*------------------------------------------*/
+
+	.i1-back-img { right: 5%; }
+
+	/*------------------------------------------*/
+	/*	INFO-2 IMAGES
+	/*------------------------------------------*/  
+
+	.i2-phones { width: 100%; max-width: 400px; height: 400px; }
+	.i2-front-img { max-width: 70%; }
+	.i2-back-img {max-width: 70%; left: 0%;}
+
+	/*------------------------------------------*/
+	/*	INFO-3 IMAGES
+	/*------------------------------------------*/  
+
+	.i3-phones { width: 100%; max-width: 380px; height: 380px; }
+	.i3-front-img {right: 28%; max-width: 70%;}	
+	.i3-back-img {max-width: 70%;}	
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER TEXT
+	/*------------------------------------------*/
+	
+	.newsletter-txt { margin-bottom: 30px; }
+	.newsletter-txt h4 { font-size: 18px; line-height: 24px; padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	  NEWSLETTER FORM INPUT
+	/*------------------------------------------*/
+	
+	.form-control {width: 100%; height: 50px; font-size: 16px; padding: 10px;  }
+	#newsletter_form .btn {  height: 50px; padding: 10px 20px;  }
+	
+	/*------------------------------------------*/
+	/*	INFO-4 IMAGES
+	/*------------------------------------------*/  
+
+	.i4-phones { width: 100%; max-width: 400px; height: 380px; }
+	.i4-front-img {right: 28%; max-width: 70%;}	
+	.i4-back-img {max-width: 70%;}	
+	
+	/*------------------------------------------*/
+	/*	  STATISTIC BLOCK
+	/*------------------------------------------*/ 
+
+	.statistic-block i { font-size: 35px; line-height: 35px; }	
+	.statistic-number { font-size: 45px; line-height: 45px; }
+	
+	/*------------------------------------------*/
+	/*	 PRICING
+	/*------------------------------------------*/
+	
+	.pricing-table {margin: 0 2%; }
+	
+	/*------------------------------------------*/
+	/*	  TESTIMONIAL MESSAGE 
+	/*------------------------------------------*/ 
+	
+	.testimonial { padding: 0; }
+	
+	/*------------------------------------------*/
+	/*	 CALL TO ACTION
+	/*------------------------------------------*/
+	
+	#call-to-action h4 { font-size: 22px; line-height: 30px; }		
+	#call-to-action p { font-size: 16px; line-height: 24px; }
+
+	/*------------------------------------------*/
+	/*	  SIGN UP TITLE
+	/*------------------------------------------*/
+
+	#sign-up h3 { font-size: 25px; line-height: 32px; }
+	
+	/*------------------------------------------*/
+	/*	 REGISTER FORM
+	/*------------------------------------------*/
+	
+	#register_form { padding: 0; }
+
+	
+	
+}
+
+
+@media (max-width: 320px) {
+	
+	#features, #clients, #info-1, #info-2, #info-3, #video, #newsletter, #info-4, #screens, #statistic-banner, #pricing, 
+	#testimonials, #call-to-action, #faqs, #sign-up, #footer  { padding-left: 5px; padding-right: 5px; }
+	
+	/*------------------------------------------*/
+	/*	 HIDW ALL PHONE IMAGES
+	/*------------------------------------------*/
+	
+	.i1-slider, .i2-phones, .i3-phones, .i4-phones { display: none;}	
+	.i2-img { border-bottom: none; }	
+	.i2-txt { margin-top: 0; }
+	#info-3.wide, #info-4.wide { padding-bottom: 80px }
+		
+	/*------------------------------------------*/
+	/*	H3 TITLE
+	/*------------------------------------------*/
+
+	h3.title-h3 { font-size: 24px; line-height: 30px; }	
+	h3.title-h3:after { margin-top: 10px; margin-bottom: 20px; }
+	
+	/*------------------------------------------*/
+	/*	INFO FEATURE
+	/*------------------------------------------*/
+
+	.info-feature h4 { font-size: 16px; line-height: 24px; }
+	
+	/*------------------------------------------*/
+	/*	 BUTTON SETTINGS
+	/*------------------------------------------*/
+
+	.btn { font-size: 13px; font-weight: 700; padding: 11px 16px; }	
+	
+	/*------------------------------------------*/
+	/*	 SECTION TITLEBAR
+	/*------------------------------------------*/
+
+	.section-title h3 { font-size: 22px; line-height: 28px; }
+	.section-title p { font-size: 16px; line-height: 24px; margin-top: 10px; padding: 0;}
+	
+	/*------------------------------------------*/
+	/*	  STORE ICONS
+	/*------------------------------------------*/
+
+	a.store {  display: block; margin-bottom: 10px; margin-right: 0;}
+
+	/*------------------------------------------*/
+	/*	 INTRO TEXT   
+	/*------------------------------------------*/
+
+	.intro-txt h2 { font-size: 24px; line-height: 34px; }
+	.intro-txt p { font-size: 16px; line-height: 22px; padding: 0 4%; }
+	
+	/*------------------------------------------*/
+	/*	 INTRO IMAGE   
+	/*------------------------------------------*/
+
+	.intro-img { padding: 0 10%; }
+		
+	/*------------------------------------------*/
+	/*	  FEATURE BOX
+	/*------------------------------------------*/
+
+	.feature-box { padding: 0 15px; }	
+		
+	/*------------------------------------------*/
+	/*	  FEATURE BOX TEXT
+	/*------------------------------------------*/
+
+	.feature-box-text h4 { font-size: 16px; line-height: 24px; }
+	
+	/*------------------------------------------*/
+	/*	 PRICING
+	/*------------------------------------------*/
+	
+	.pricing-table {margin: 0; }
+	
+	/*------------------------------------------*/
+	/*	 TABLE HEADER
+	/*------------------------------------------*/
+
+	.table-header h3 { font-size: 26px; line-height: 26px; }
+		
+	/*------------------------------------------*/
+	/*	 TABLE HEADER PRICE
+	/*------------------------------------------*/
+	
+	.table-header .price span {font-size: 75px;line-height: 75px;}
+	
+	/*------------------------------------------*/
+	/*	 Currency
+	/*------------------------------------------*/
+
+	sup.currency, sup.cents { font-size: 30px; top: -30px; }
+	
+	/*------------------------------------------*/
+	/*	 TABLE BODY 
+	/*------------------------------------------*/
+
+	ul.table-features { font-size: 16px; }
+	
+	/*------------------------------------------*/
+	/*	 PRICING NOTICE MESSAGE
+	/*------------------------------------------*/
+
+	.pricing-notice p { font-size: 16px; line-height: 24px; }
+	
+	/*------------------------------------------*/
+	/*	  SIGN UP TITLE
+	/*------------------------------------------*/
+
+	#sign-up p { padding: 0;}
+
+	/*------------------------------------------*/
+	/*	 FOOTER COPYRIGHT  
+	/*------------------------------------------*/
+
+	#footer p { font-size: 16px; }
+	
+	/*------------------------------------------*/
+	/*	 FOOTER SOCIAL ICONS SETTINGS 
+	/*------------------------------------------*/
+	
+	.footer-icons-socials { margin-bottom: 15px; }
+	.foo-social { width: 38px; height: 38px;font-size: 16px; line-height: 38px;}
+	.contact-socials li {float: none;width: 100% !important; display: block !important;}
+	.foo_link { font-size: 15px; line-height: 15px; font-weight: 400; margin-bottom: 8px; }
+		
+	/*------------------------------------------*/
+	/*	 FOOTER SOCIAL ICONS SETTINGS 
+	/*------------------------------------------*/
+	
+	#scrollUp { width: 40px; height: 40px;	}
+
+
+	
+}
+
+
