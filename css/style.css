@@ -463,8 +463,8 @@ a.store:last-child {
    ========================================================================== */
 
 #intro  {
-	background-image: -webkit-linear-gradient(102deg, #1E6887 19%, #1E6887 81%);
-	background-image: linear-gradient( #1E6887 19%,#1E6887 81%);
+	background-image: url(../img/third.png);
+	/*background-image: linear-gradient( #1E6887 19%,#1E6887 81%);*/
 	padding-top: 150px;
 	padding-bottom: 100px;
 	height:600px;
@@ -635,13 +635,13 @@ a.store:last-child {
 /* ===================================================================
    14. STATISTIC BANNER
    ========================================================================== */
-   
+
 #statistic-banner {
 	width: 100%;
 	background-image: url(../img/thumbs/bg.png);
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
-	background-position: center center;		
+	background-position: center center;
 	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 80px;
