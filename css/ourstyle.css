@@ -232,3 +232,13 @@ button.accordion.active:after {
         margin: 5px;
     }
 }
+@media only screen and (max-width: 1024px) {
+	.navbar-brand img{
+		width: 250px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	#intro{
+			background-position: center;
+	}
+}
