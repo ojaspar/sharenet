@@ -28,6 +28,18 @@ button.accordion {
     transition: 0.4s;
     border-radius:3px;
 }
+button.accordion1 {
+    background-color: #1E6887;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius:3px;
+}
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
@@ -35,7 +47,11 @@ button.accordion.active, button.accordion:hover {
     color:black;
     border-radius:3px;
 }
-
+button.accordion1.active, button.accordion1:hover {
+    background-color: #444;
+    color:black;
+    border-radius:3px;
+}
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
     padding: 0 18px;
@@ -45,16 +61,25 @@ div.panel {
 button.accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
+    color: black;
+    float: right;
+    margin-left: 5px;
+}
+button.accordion1:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
     color: white;
     float: right;
     margin-left: 5px;
 }
-
 button.accordion.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
     color:black;
 }
-
+button.accordion1.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    color:black;
+}
 .win {
     color: white;
     font-size: 14px;
@@ -211,12 +236,14 @@ button.accordion.active:after {
 }
 
 @media only screen and (max-width: 1024px) {
-    .windows-btn, .googleplay-btn, .appstore-btn{
-        display:block;
-        height:25px;
-        margin-left:38%;
-        margin-top:2.5px;
-				margin-bottom: 0;
+ .googleplay-btn, .appstore-btn{
+        margin:5px;
+
+    }
+}
+@media only screen and (max-width: 1024px) {
+	 .appstore-btn{
+        margin-right:52px;
 
     }
 }
@@ -239,6 +266,6 @@ button.accordion.active:after {
 }
 @media only screen and (max-width: 1024px) {
 	#intro{
-			background-position: center;
+		background-position: center;
 	}
 }
