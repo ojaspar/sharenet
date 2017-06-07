@@ -57,6 +57,10 @@ div.panel {
     padding: 0 18px;
     background-color: white;
     display: none;
+		text-align: justify;
+}
+.panel ul{
+	list-style: disc !important;
 }
 button.accordion:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
