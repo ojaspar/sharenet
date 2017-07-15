@@ -1,5 +1,6 @@
 .get {
-	background-image: url(../img/thumbs/dark-pattern.jpg);
+	/*background-image: url(../img/thumbs/dark-pattern.jpg);*/
+	background-color: 	#ddd;
 	background-repeat: repeat;
 	position: relative;
     z-index: 2;
@@ -8,7 +9,8 @@
 	border-bottom: 1px solid #393939;
 }
 .foot {
-	background-image: url(../img/thumbs/dark-pattern.jpg);
+	/*background-image: url(../img/thumbs/dark-pattern.jpg);*/
+	background-color:  #1E6887;
 	background-repeat: repeat;
 	border-top: 1px solid #393939;
 	border-bottom: 1px solid #393939;
@@ -225,6 +227,9 @@ button.accordion1.active:after {
 
 .black {
     color:black !important;
+}
+.black:hover{
+	color: black !important;
 }
 @media only screen and (max-width: 1024px) {
     .table-body, .table-header {
